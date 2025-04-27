@@ -16,5 +16,4 @@ CREATE TABLE todos (
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
--- Admin default (password = nim_anda -> ganti sesuai NIM-mu)
-INSERT INTO users (username, password) VALUES ('admin', SHA2('nim_anda', 256));
+INSERT INTO users (username, password) VALUES ('admin', SHA2('235314023', 256));
